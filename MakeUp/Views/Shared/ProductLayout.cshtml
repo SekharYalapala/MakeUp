@@ -1,0 +1,195 @@
+﻿@*<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <meta charset="utf-8" />
+    <link href="~/Content/Style.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+        <script src="~/Scripts/jquery.validate.min.js"></script>
+
+</head>
+<body>
+    <div class="div-container">
+        <div class="div-header">
+            <b style="font-size:30px">
+                Sharkle
+                Online Shopping Make up Products
+            </b>
+        </div>div-header
+        <div class="clear"></div>
+        <div class="div-topmenu">
+            <ul>
+                <li>
+                    @Html.ActionLink("Home", "Index", "Home")
+                </li>
+                <li>
+                    @Html.ActionLink("News", "NewsIndex", "News")
+                </li>
+                <li>
+                    @Html.ActionLink("Products", "ProductsIndex", "Products")
+                </li>
+                <li>
+                    @Html.ActionLink("Contact Us", "ContactUsIndex", "ContactUs")
+                </li>
+            </ul>
+        </div>div-topmenu
+        <div class="clear"></div>
+        <div class="div-left">
+            <div class="category-title">Category</div>category-title
+            <div class="category-list">
+             
+                <ul>
+                    <li>
+                        <a href="#">Face Products</a>
+                    </li>
+                    <li>
+                        <a href="#">Eye Products</a>
+                    </li>
+                    <li>
+                        <a href="#">Lip Products</a>
+                    </li>
+                </ul>
+
+            </div>category-list
+        </div>div-left
+        <div class="div-main">
+            
+            <div class="clear">
+            </div>
+            @RenderBody()
+            <div class="main-content">
+                <div class="content-image">
+                    <a href="#">
+                        <img src="~/Media/Images/Layout/lakme foundation.PNG" />
+                    </a>
+                </div>content-image
+                <div class="content-title">
+                    <a href="#">Lakme Foundation</a>
+                </div>content-title
+                <div class="content-price">
+                    Price:500
+                </div>content-price
+            </div>main-content
+
+            <div class="main-content">
+                <div class="content-image">
+                    <a href="#">
+                        <img src="~/Media/Images/Layout/hair serum.PNG" />
+                    </a>
+                </div>content-image
+                <div class="content-title">
+                    <a href="#">Livion Hair serum</a>
+                </div>content-title
+                <div class="content-price">
+                    Price:250
+                </div>content-price
+            </div>main-content
+
+            <div class="main-content">
+                <div class="content-image">
+                    <a href="#">
+                        <img src="~/Media/Images/Layout/Lakme Kajal.PNG" />
+                    </a>
+                </div>content-image
+                <div class="content-title">
+                    <a href="#">Lakme Kajal</a>
+                </div>content-title
+                <div class="content-price">
+                    Price:290
+                </div>content-price
+            </div>main-content
+
+            <div class="main-content">
+                <div class="content-image">
+                    <a href="#">
+
+                        <img src="~/Media/Images/Layout/Lakme lipsticks.PNG" />
+                    </a>
+                </div>content-image
+                <div class="content-title">
+                    <a href="#">Lakme Lipstick</a>
+                </div>content-title
+                <div class="content-price">
+                    Price:600
+                </div>content-price
+            </div>main-content
+
+            <div class="main-content">
+                <div class="content-image">
+                    <a href="#">
+                        <img src="~/Media/Images/Layout/eyeshadow.PNG" />
+                    </a>
+                </div>content-image
+                <div class="content-title">
+                    <a href="#">Eyeshadow</a>
+                </div>content-title
+                <div class="content-price">
+                    Price:1500
+                </div>content-price
+            </div>main-content
+
+            <div class="main-content">
+                <div class="content-image">
+                    <a href="#">
+                        <img src="~/Media/Images/Layout/lakme eyeliner.PNG" />
+                    </a>
+                </div>content-image
+                <div class="content-title">
+                    <a href="#">Lakme eyeliner</a>
+                </div>content-title
+                <div class="content-price">
+                    Price:200
+                </div>content-price
+            </div>main-content
+
+            <div class="main-content">
+                <div class="content-image">
+                    <a href="#">
+                        <img src="Media/Images/Layout/maybelinne blush.PNG" />
+                    </a>
+                </div>content-image
+                <div class="content-title">
+                    <a href="#">maybelinne blush</a>
+                </div>content-title
+                <div class="content-price">
+                    Price:210
+                </div>content-price
+            </div>main-content
+            <div class="main-content">
+                <div class="content-image">
+                    <a href="#">
+                        <img src="Media/Images/Layout/lipgloss.PNG" />
+                    </a>
+                </div>content-image
+                <div class="content-title">
+                    <a href="#">Lipgloss</a>
+                </div>content-title
+                <div class="content-price">
+                    Price:240
+                </div>content-price
+            </div>main-content
+            <div class="main-content">
+                <div class="content-image">
+                    <a href="#">
+                        <img src="Media/Images/Layout/Masacara.PNG" />
+                    </a>
+                </div>content-image
+                <div class="content-title">
+                    <a href="#">Masacara</a>
+                </div>content-title
+                <div class="content-price">
+                    Price:250
+                </div>content-price
+            </div>main-content
+        </div>div-main
+        <div class="clear"></div>
+
+        <div class="div-footer">
+            <p>Email:<a href="mailto:sparkle@gmail.com">Sparkle</a></p>
+            <p>Contact Number:8765431234</p>
+            <p>Have a good day..!</p>
+        </div>div-footer
+    </div>
+</body>
+</html>*@

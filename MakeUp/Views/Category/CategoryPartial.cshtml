@@ -1,0 +1,14 @@
+﻿@using MakeupOnline.Models
+@model List<Category>
+
+
+<ul>
+    @{ foreach (var item in Model)
+                    { @*<li>
+                <a href="#">@item.Name</a>
+            </li>*@
+          <li>
+
+            @Html.ActionLink(@item.Name, "ProductsIndex", "Products", new { category = @item.CategoryId }, null)
+                  </li> } }
+</ul>
